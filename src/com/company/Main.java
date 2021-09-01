@@ -36,5 +36,15 @@ public class Main {
         System.out.println(bigLongLiteralValue);
 
         short bigShortLiteralValue = 32767;
+
+        int myTotal = (myMinIntValue/2);
+        //casting using byte...treat this right as a byte..and then again as a short.
+        //java uses int is the default value. Always use integer unless you have to use byte or short.
+        byte myNewByteValue = (byte)(myMinByteValue/2);
+        short myNewShortValue = (short)(myMinShortValue/2);
+
+//        byte twne= 272727;
+
+
     }
 }
